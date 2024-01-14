@@ -11,7 +11,7 @@
  * limitations under the License.
  */
 
-const asCompiler = require("assemblyscript/cli/asc");
+const asCompiler = require("assemblyscript/asc");
 const { basename, join } = require("path");
 const { tmpdir } = require("os");
 const fsp = require("fs/promises");
